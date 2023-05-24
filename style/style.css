@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: aqua;
+}
+
+main {
+
+    margin: auto ;
+}
+
+#conteudo {
+    margin-top: 25vh;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    width: 800px;
+    height: 400px;
+    color: white;
+}
+
+#conteudo div {
+    align-content: center;
+    align-items: center;
+    width: 1440px;
+    padding: 20px;
+
+}
+
+div img {
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+div h1 {
+    font-size: 35px;
+    font-weight: 400px;
+    padding-bottom: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    letter-spacing: 2px;
+}
+
+div p {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0 0 10px;
+    width: 480px;
+    text-align: left;
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+    width: 480px;
+   
+}
+
+#luxuosos {
+    background-color: hsl(179, 100%, 13%);
+    width: 480px;
+    border-radius: 0 10px 10px 0;
+}
+
+button {
+    cursor: pointer;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 45px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+    padding: 10px 35px 10px 35px;
+    text-align: center;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px white solid;
+    color: white;
+}
