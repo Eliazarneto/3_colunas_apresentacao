@@ -97,20 +97,20 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     
-
-    body {
-        height: auto;
-    }
     * {
-        margin-top: 20px;
-        width: 100%;
+        margin: 0;
+        padding: 0;
+        
     }
     
     #conteudo {
-        display: block;
+        height: 100%;
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        margin-top: 5vh;
 }
 
     #conteudo div {
-        width: 40vh;
-        margin-left: 3vh;    
+        width: 40vh;     
 }
